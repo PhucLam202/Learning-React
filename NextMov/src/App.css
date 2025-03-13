@@ -55,3 +55,28 @@
   flex: 0 0 auto;
   width: 200px;
 }
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  margin-top: 1em;
+}
+
+.pagination-btn {
+  background-color: #646cff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 0.5em 1em;
+  margin: 0 0.5em;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.pagination-btn:hover {
+  background-color: #61dafb;
+}
+.pagination-btn.active{
+  background-color: #4b0082;
+  color: white;
+}
